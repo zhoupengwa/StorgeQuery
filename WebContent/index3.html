@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>条形码查询</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="main">
+    <div align="center">
+        <h1 style="color: red" align="center">三亚天南贸易有限公司商品管理系统</h1>
+        <a style="display: inline" href="add.html">新增条码</a>&nbsp;&nbsp;&nbsp;<a style="display: inline" href="#">条码查询</a>
+        <br/>
+    </div>
+    <ul>
+        <li>
+            <textarea id="input_area" rows="20" cols="20">
+4569012851221
+1206985321918
+6940553360003
+3278453199197
+            </textarea> <br/>
+            <button id="start_btn" onclick="start()">开始匹配</button>
+            <!--<button id="similar_btn" onclick="similar()">匹配相似</button>-->
+            <button id="clear_btn" onclick="clear_area()">清除</button>
+        </li>
+        <li>
+            <div id="div_exist"><textarea id="exist_area" rows="20" cols="20"></textarea><br/>匹配到的条码</div>
+        </li>
+        <li>
+            <div id="div_not_exist"><textarea id="not_exist_area" rows="20" cols="20"></textarea><br/>未匹配到的条码</div>
+        </li>
+    </ul>
+
+</div>
+<div class="clear">
+    <br/>
+    <hr/>
+   <h5 id="h_similar">相似条码：</h5>
+</div>
+<div class="main2">
+    <ul>
+        <li>
+            <div id="div_fruit"><textarea id="fruit_area" rows="20" cols="20"></textarea><br/>果蔬-A1架</div>
+        </li>
+        <li>
+            <div id="div_electrical"><textarea id="electrical_area" rows="20" cols="20"></textarea><br/>电器-B1架</div>
+        </li>
+        <li>
+            <div id="div_drink"><textarea id="drink_area" rows="20" cols="20"></textarea><br/>饮品-C1架</div>
+        </li>
+        <li>
+            <div id="div_grain_oil"><textarea id="grain_oil_area" rows="20" cols="20"></textarea><br/>粮油-D1架</div>
+        </li>
+    </ul>
+</div>
+<br/>
+</body>
+</html>

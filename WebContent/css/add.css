@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    height: 100%;
+    padding-top: 30px;
+    width: 60%;
+    /*background-color: aliceblue;*/
+    margin: 0 auto;
+}
+
+#input_add {
+    margin: 10px;
+    width: 200px;
+    padding: 5px;
+    font: normal 500 16px 微软雅黑;
+}
+
+#btn_submit {
+    padding: 3px;
+    background-color: aquamarine;
+    font: normal 500 14px 微软雅黑;
+}

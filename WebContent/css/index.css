@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    height: 100%;
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main ul {
+    width: 900px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.main li {
+    width: 260px;
+    float: left;
+}
+
+.main li textarea {
+    border: 0px;
+}
+
+#input_area {
+    border: 1px solid;
+
+}
+
+#exist_area {
+    color: #2c9213;
+}
+
+#not_exist_area {
+    color: red;
+}
+
+.main button {
+    margin-top: 15px;
+}
+
+#div_exist {
+    padding: 30px;
+    border: 1px dotted green;
+    color: green;
+}
+
+#div_not_exist {
+    border: 1px dotted red;
+    color: red;
+    padding: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main2 {
+    height: 100%;
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#h_similar {
+    color: #175efb;
+    margin-left: 20%;
+}
+
+.main2 ul {
+    width: 1300px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.main2 li {
+    width: 260px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.main2 li textarea {
+    border: 0px;
+    color: #175efb;
+}
+
+#div_fruit {
+    padding: 30px;
+    border: 1px dotted #3c9bf9;
+    color: #175efb;
+}
+
+#div_electrical {
+    padding: 30px;
+    border: 1px dotted #3c9bf9;
+    color: #175efb;
+}
+
+#div_drink {
+    padding: 30px;
+    border: 1px dotted #3c9bf9;
+    color: #175efb;
+}
+
+#div_grain_oil {
+    padding: 30px;
+    border: 1px dotted #3c9bf9;
+    color: #175efb;
+}
+
